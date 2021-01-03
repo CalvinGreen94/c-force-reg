@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Prediction APP</title>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="static/css/main.css" />
+<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+
+</head>
+<body>
+  <style>
+div.a {
+        text-align: center;
+}
+</style>
+ <div class="a">
+   <div class="a">
+		<br><br>
+		<!--		<div class="aligncenter">-->
+		<br><br>
+		<font color="black">
+			<nav>
+				<ul>
+
+					<a href="index.html"><span style="color: black; ">HOME</span></a>
+					<a href="founders.html"><span style="color: black; ">FOUNDERS</span></a>
+					<!--        <a href="About.html"><span style="color: black; ">About</span></a>-->
+					<a href="services.html"><span style="color: black; ">SERVICE</span></a>
+					<a href="apply.html"><span style="color: black; ">CAREERS</span></a>
+					<!--      </font>-->
+					<p class="aligncenter"><div class="col-md-12">
+  <img src="https://i.imgur.com/MORHNe4.jpeg" height="400" width="450"></img><br></p>
+
+
+					</div>
+          <div class="a">
+            <font color="#6699CC">
+
+<div style="height:400px;width:1000px;overflow:scroll;overflow-x:scroll;overflow-y:scroll;border:solid 2px black;">   
+    <h7><div style="font-family: 'Crimson Pro', Literata;"><div class="font-effect-fire">WELCOME TO ONE OF THE FIRST TRULY DECENTRALIZED CONTENT SHARING MARKETPLACES..<br>
+ONCE YOU GET USED TO USING THIS V1. YOU WILL HAVE ACESS TO HAVING CONTROL OF YOUR OWN MARKET</h7></font> <br> 
+<br>After you enter in the information you will be redirected to the content pages.  <br><br>MAKE SURE YOU ARE USING GOOGLE CHROME!
+      <form action="{{ url_for('predict_c_force') }}" method="post"><font color="#6699CC">
+        <div style="border:solid2px orange;"> 
+        <input
+
+          type="text"
+
+          name="deck1 price"
+
+          placeholder="enter price for deck1 cards"
+
+          required="required"
+
+               /></div>
+        <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="deck2 price"
+
+          placeholder="enter price for deck2 cards "
+
+          required="required"
+
+        /></div>
+<!--         <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="damage1"
+
+          placeholder="enter damage wanted for deck1, 0-3"
+
+          required="required"
+
+        /></div> -->
+        <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="damage2"
+
+          placeholder="enter damage wanted for deck2, 3-6"
+
+          required="required"
+
+        /></div>
+        <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="AI bid"
+
+          placeholder="Enter Bid Amount against dAIsy"
+
+          required="required"
+
+        /></div>        
+        <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="bid"
+
+          placeholder="Enter Bid Amount"
+
+          required="required"
+
+        /></div>
+        <div style="border:solid 2px orange;">
+        <input
+
+          type="text"
+
+          name="stake"
+
+          placeholder="Enter Stake Amount"
+
+          required="required"
+
+               /></div>
+                 <!-- <form action="{{ url_for('predict_c_force')}}"method="post"> -->
+      <button type="submit" class="btn btn-primary btn-block btn-large">C-Force</button>
+      <!-- . Purchase The Basic Model for only $10 Each Use -->
+      <div class="jumbotron">
+</font>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+<body>
+  <p><h1><font color="#6699CC"> RESULTS</h1> </font></p>
+
+  <font color="#FF33CC"> {{ prediction_text }}</font>
+       <p><h3><a href="../high_low_open.html"><button type="submit" class="btn btn-primary btn-block btn-large">View Signals</button></a>
+    <!-- <p><h3><a href="/"><button type="submit" class="btn btn-primary btn-block btn-large"> -->
+
+    <p><h3><a href="https://projectgammaai.herokuapp.com/index.html"><button type="submit" class="btn btn-primary btn-block btn-large">Home</button></a>
+      <p><h3><a href="/"><button type="submit" class="btn btn-primary btn-block btn-large">choose stock or crypto</button></a>
+    </h3></p><br><br>
+      <!-- Adding comments section -->
+
+      <div id="disqus_thread"></div>
+
+      <script>
+
+        (function() {
+
+          // DON'T EDIT BELOW THIS LINE
+
+          var d = document,
+
+            s = d.createElement("script");
+
+          s.src = "https://projectgammaai.weebly.com/";
+
+          s.setAttribute("data-timestamp", +new Date());
+
+          (d.head || d.body).appendChild(s);
+
+        })();
+
+      </script>
+
+      <noscript
+
+        >Please enable JavaScript to view the
+
+        <a href="https://disqus.com/?ref_noscript"
+
+          >comments powered by Disqus.</a
+
+        ></noscript
+
+      >
+
+    </main>
+
+
+
+    <footer id="main-footer">
+
+      Copyright &copy; 2020
+
+    </footer>
+
+  <!-- Adding comments section -->
+
+
+
+
+<!--
+    <script>
+
+      // Select DOM Items
+
+      const menuBtn = document.querySelector(".menu-btn");
+
+      const menu = document.querySelector(".menu");
+
+      const menuNav = document.querySelector(".menu-nav");
+
+      const menuBranding = document.querySelector(".menu-branding");
+
+      const navItems = document.querySelectorAll(".nav-item");
+
+
+    </script> -->
+</div>
+</body>
+</div>
+</body>
+</html>
