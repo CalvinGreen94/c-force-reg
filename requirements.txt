@@ -9,3 +9,5 @@ requests
 sklearn
 
 pandas
+
+stripe
