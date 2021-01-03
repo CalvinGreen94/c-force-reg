@@ -50,6 +50,7 @@ def predict_c_force():
     For rendering results on HTML GUI
     '''
     import pandas as pd
+    import matplotlib.pyplot as plt 
     from sklearn.preprocessing import MinMaxScaler as mini
     bid_values = np.random.uniform(0.015,0.06,[6000,1])
     bid_df = pd.DataFrame(bid_values,columns=['Bid'])
@@ -78,7 +79,7 @@ def predict_c_force():
     # PATH FOR PRICE-DECK-TRADE
     clean_path = os.listdir("images/media/anihotime/clean/")
     app.config['UPLOAD_FOLDER'] = clean_path
-
+    import webbrowser
     # clean_path = np.array(clean_path)
     # clean_path=pd.DataFrame(clean_path,columns=['Deck1 cards'])[:25] 
     # data = data.join(clean_path)
@@ -118,7 +119,7 @@ def predict_c_force():
     output =y[-1:]
     date = datetime.date.today()  
     full_filename = 'images/media/anihotime/clean/c1.jpg'
-
+    deck = webbrowser.open('https://i.imgur.com/fkOMBjG.jpg')
     return render_template('c_force.html',user_image = full_filename, prediction_text='THANK YOU FOR YOUR PURCHASE,\n PREDICTED PRICE FOR DATA IS {} '.format(output))
 
 
