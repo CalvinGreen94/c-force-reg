@@ -50,7 +50,6 @@ def predict_c_force():
     For rendering results on HTML GUI
     '''
     import pandas as pd
-    import matplotlib.pyplot as plt 
     from sklearn.preprocessing import MinMaxScaler as mini
     bid_values = np.random.uniform(0.015,0.06,[6000,1])
     bid_df = pd.DataFrame(bid_values,columns=['Bid'])
