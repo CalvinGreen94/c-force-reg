@@ -1,10 +1,10 @@
 ### Prerequisites
-You must have Scikit Learn, Pandas and Flask (for API) installed.
+You must have Scikit Learn, Pandas and Flask, Keras installed.
 
 ### Project Structure
 1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping / DATA RESTRUCTING EACH APP UPDATE TO RANDOMIZE PRICES
 
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the predicted value based on our model and returns it.
 
 
 ### Running the project
@@ -24,5 +24,5 @@ By default, flask will run on port 3000.
 
 Choose the dApp/ App
 
-AFTERWARDS, THE  PREDICTION WILL BE DISPLAYED AFTER PAYMENT WHEN LAUNCHED TO MAINNET! 
+AFTERWARDS, THE  PREDICTION WILL BE DISPLAYED AFTER PAYMENT WHEN LAUNCHED TO MAINNET! but for now its entirely free
 "# c-force-reg" 
