@@ -1,7 +1,7 @@
 Install dependencies from requirements.txt
 
 ### Project Structure
-1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping / DATA RESTRUCTING EACH APP UPDATE TO RANDOMIZE PRICES
+1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping / DATA RESTRUCTING EACH APP UPDATE TO RANDOMIZE PRICES FOR C-FORCE
 
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the predicted value based on our model and returns it.
 
