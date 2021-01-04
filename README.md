@@ -1,5 +1,4 @@
-### Prerequisites
-You must have Scikit Learn, Pandas and Flask, Keras installed.
+Install dependencies from requirements.txt
 
 ### Project Structure
 1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping / DATA RESTRUCTING EACH APP UPDATE TO RANDOMIZE PRICES
