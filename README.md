@@ -2,7 +2,7 @@
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
 ### Project Structure
-1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping.
+1. model.py - This contains code for our Machine Learning model to perform stock predictions based on the past training data in 'BTC-USD.csv', etc... files from yahoo finance for quick prototyping / DATA RESTRUCTING EACH APP UPDATE TO RANDOMIZE PRICES
 
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
 
@@ -20,16 +20,9 @@ python app.py
 ```
 By default, flask will run on port 3000.
 
-3. Navigate to URL http://localhost:5000 or 127.0.0.1/3000
+3. Navigate to URL http://localhost:3000 or 127.0.0.1/3000
 
-CHOOSE STOCK YOU WOULD LIKE TO PREDICT :
-![alt text](https://i.imgur.com/ZI1FKwQ.png)
+Choose the dApp/ App
 
-Next, WE PAY FOR THE STOCK WE WOULD LIKE TO PREDICT:
-![alt text](https://i.imgur.com/rX93R1n.png)
-
-AFTERWARDS, THE STOCK PREDICTION WILL BE OUTPUTTED AFTER PAYMENT!
-![alt text](https://i.imgur.com/PrKA4zP.png)
-
-THE FINAL OUTPUT IS THE HEROKU HOST : https://stock-prediction-basic.herokuapp.com/   
+AFTERWARDS, THE  PREDICTION WILL BE DISPLAYED AFTER PAYMENT WHEN LAUNCHED TO MAINNET!
 "# c-force-reg" 
