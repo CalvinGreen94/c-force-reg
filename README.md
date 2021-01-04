@@ -6,7 +6,6 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
 
-3. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
